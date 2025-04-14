@@ -1,0 +1,87 @@
+*************************************************
+******************* ORCA 6.0.0 ******************
+*************************************************
+$Calculation_Status
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &VERSION [&Type "String"] "6.0.0"
+   &PROGNAME [&Type "String"] "LeanSCF"
+   &STATUS [&Type "String"] "NORMAL TERMINATION"
+$End
+$Geometry
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 18
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(18,4), &Units "Bohr"] 
+              O      1.633284628370   -3.238646663385   -0.894533990836
+              H      2.173128362225   -4.888526866662   -1.429197985359
+              H      3.184704430892   -2.270677914985   -0.570663277374
+              O     -1.380817216878    0.766603311022   -3.092884527771
+              H     -3.043772435276    0.466393858482   -2.352574866176
+              H     -0.500361685740   -0.823480288200   -2.848386091386
+              O      1.115172745054    3.285445731091    0.473246005444
+              H      0.942395084630    5.091472115089    0.380441555007
+              H      0.127545175683    2.593873996217   -0.968832353243
+              O     -1.327152774127   -0.934887202700    3.135907922662
+              H     -0.534053612981    0.686403333898    2.820958606278
+              H     -0.380284707738   -2.072150846259    2.052155654036
+              O      5.283371914262    0.214374312084    0.151036361254
+              H      6.229353699094    0.193628898586    1.701520749339
+              H      4.061357833049    1.590688311585    0.342276646006
+              O     -5.461648677737    0.028873125600    0.119143453291
+              H     -6.892821426905   -1.072903350891    0.294946565256
+              H     -4.264892676029   -0.468812707934    1.442040564165
+$End
+$SCF_Energy
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -4.5639598558941356e+02
+$End
+$Calculation_Info
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &MULT [&Type "Integer"] 1
+   &CHARGE [&Type "Integer"] 0
+   &NUMOFATOMS [&Type "Integer"] 18
+   &NUMOFELECTRONS [&Type "Integer"] 60
+   &NUMOFFCELECTRONS [&Type "Integer"] 1
+   &NUMOFCORRELECTRONS [&Type "Integer"] 0
+   &NUMOFBASISFUNCTS [&Type "Integer"] 348
+   &NUMOFAUXCBASISFUNCTS [&Type "Integer"] 0
+   &NUMOFAUXJBASISFUNCTS [&Type "Integer"] 0
+   &NUMOFAUXJKBASISFUNCTS [&Type "Integer"] 834
+   &NUMOFCABSBASISFUNCTS [&Type "Integer"] 0
+   &TOTALENERGY [&Type "Double"]      -4.5639598558941356e+02  "Hartrees"
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 18
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -1.8029306137960752e-02
+1                                      1.1910959798843407e-01
+2                                     -1.1819651783356860e-01
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      6.0690826710600021e-01
+1                                     -5.3631909093794095e-01
+2                                      4.7608031928913563e-01
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      5.8887896096803949e-01
+1                                     -4.1720949294950688e-01
+2                                      3.5788380145556703e-01
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       8.0555757523734461e-01
+$End
